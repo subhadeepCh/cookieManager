@@ -41,7 +41,16 @@
   <div id="cookieman"></div>
   <script>
     window.addEventListener("load", function () {
-      window.cookieMan();
+      window.cookieMan({
+        TITLE: "Manage Consent 1",
+        BODY: "test Body",
+        COOKIE_POLICY: "https://www.google.com",
+        PRIVACY_STATEMENT: "https://www.google.com",
+        FUNCTIONAL_DESC: "sdvsdv",
+        ANALYTICS_DESC: "vsdvsdvds",
+        MARKETTING_DESC: "cdcsdcsdc",
+        OVERRIDE_DEFAULT: false
+      });
     });
   </script>
   <script>
